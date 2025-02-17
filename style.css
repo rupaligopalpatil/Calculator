@@ -5,9 +5,14 @@
     font-family: Arial, sans-serif;
 }
 body {
-    display: block;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     min-height: 100vh;
-    background-color: #f5f5f5;
+    background-image: url('https://img.pikbest.com/backgrounds/20190731/calculation-digital-information-background-v_1517911jpg!f305cw');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 .calculator {
